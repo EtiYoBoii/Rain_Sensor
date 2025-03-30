@@ -12,8 +12,8 @@
 * 1xLM7805T Voltage Regulator
 # Schematic:
   It's the final one.
-  The only problem I found is that you need to connect the ESP32 to 5V only to the 5V line of the USB-C. I removed the switch near the port and used a 28awg wire to connect it.
+  The only problem I found is that you need to connect the ESP32 to 5V only to the 5V line of the USB-C. I removed the switch near the port and used a 28awg wire to connect it. I added a pad to be easier to connect the wire to the PCB.
 # PCB:
-  I tried doing it as small as possible still using the capacitor filtering.
+  I tried doing it as small as possible still using the capacitor filtering. Added a pad for connecting the ESP32 to 5V.
 # STLs:
   Still working on them, initially the PCB was made on a prototyping board so the case and the PCB were larger.
